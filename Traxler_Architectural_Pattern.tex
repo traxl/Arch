@@ -1,0 +1,38 @@
+
+\documentclass[a4paper,12pt]{scrreprt}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{tabu}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{listings}
+
+\begin{document}
+
+
+%\titlehead{Kopf} %Optionale Kopfzeile
+\author{Daniel Dimitrijevic \and Thomas Traxler} %Zwei Autoren
+\title{ Space Based Computing } %Titel/Thema
+\subject{VSDB} %Fach
+\subtitle{ Ausarbeitung } %Genaueres Thema, Optional
+\date{\today} %Datum
+\publishers{5AHITT} %Klasse
+
+\maketitle
+\tableofcontents
+
+
+\chapter{eins}
+A ist ein \cite{Fowler2002} Test
+
+\bibliographystyle{alphadin}
+\bibliography{arch}
+%\bibliography{ref}
+
+%\listoffigures
+%\lstlistoflistings
+
+
+\end{document}
