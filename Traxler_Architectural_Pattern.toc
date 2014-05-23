@@ -1,2 +1,2 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}eins}{3}
+\contentsline {chapter}{\numberline {1}Architecture}{3}
